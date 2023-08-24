@@ -1,0 +1,16 @@
+<?php
+
+$servername="localhost";
+$user = "root";
+$password="richgirl23!!";
+$dbname="charapp";
+$connect = mysqli_connect($servername, $user, $password, $dbname);
+
+if($connect) {
+echo '접속완료';
+} else {
+	'접속실패'
+};
+
+
+?>
